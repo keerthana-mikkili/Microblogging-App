@@ -1,0 +1,50 @@
+/* Adds Font to the body */
+body {
+  font-family: Calibri;
+}
+
+/* Reduces the width of the body */
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* CSS to each Blog created */
+.blog-card {
+  background: lightgray;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  overflow: hidden;
+  max-height: 120px;
+}
+
+/* CSS to the form fields while creating a blog */
+.edit-input {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.content {
+  max-height: 500px;
+}
+
+/* Adds background color and other css to create blog button */
+#createbutton {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* To Hide the create blog form */
+#createcard {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */

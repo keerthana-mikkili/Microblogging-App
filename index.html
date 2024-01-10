@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Microblogging App</title>
+        <!-- <link rel="stylesheet" href="dist/main.css"> -->
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>Microblogging App</h1>
+            <div id="blogslist">
+                <!-- All Blogs will be displayed here -->
+            </div>
+            <!-- Button to create a blog -->
+            <button id="createbutton">Create Blog</button>
+            <div id="createcard">
+                <!-- To enter the Title of the Blog -->
+                <input id="title" class="edit-input" placeholder="Title" required>
+                  <!-- To enter the Content of the Blog -->
+                <textarea id="content" class="edit-input" placeholder="Content" required></textarea>
+                  <!-- To enter the Author of the Blog -->
+                <input id="author" class="edit-input" placeholder="Author" required>
+                  <!-- Submit button to add the Blog -->
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+    <script src="js/blog.js"></script>
+    </body>
+
+</html>
